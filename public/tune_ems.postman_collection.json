@@ -1,0 +1,130 @@
+{
+	"id": "02497a18-d777-5538-b740-6abc2f848f36",
+	"name": "tune_ems",
+	"description": "",
+	"order": [
+		"57342b36-24a3-ef59-b5e7-af14dd29710e",
+		"518ff8b8-cea3-6f65-0d22-a41c23bfd93c",
+		"90fde545-3aef-adc1-9c13-a40e4ed766c3",
+		"bc203896-f434-34c0-b5f4-c01471c1ba6d"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1598614677991,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "518ff8b8-cea3-6f65-0d22-a41c23bfd93c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/employees",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598614733610,
+			"name": "Create",
+			"description": "",
+			"collectionId": "02497a18-d777-5538-b740-6abc2f848f36",
+			"responses": [],
+			"rawModeData": "{\n  \"name\": \"kushal\",\n  \"email\": \"kushal855@gmail.com\",\n  \"date_of_birth\": \"1984-06-15\"\n}"
+		},
+		{
+			"id": "57342b36-24a3-ef59-b5e7-af14dd29710e",
+			"headers": "",
+			"headerData": [],
+			"url": "http://127.0.0.1:8000/api/employees",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598614743751,
+			"name": "List",
+			"description": "",
+			"collectionId": "02497a18-d777-5538-b740-6abc2f848f36",
+			"responses": []
+		},
+		{
+			"id": "90fde545-3aef-adc1-9c13-a40e4ed766c3",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/employees/3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598614815864,
+			"name": "Update",
+			"description": "",
+			"collectionId": "02497a18-d777-5538-b740-6abc2f848f36",
+			"responses": [],
+			"rawModeData": "{\n  \"name\": \"kushal I S\",\n  \"email\": \"kushal855@gmail.com\",\n  \"date_of_birth\": \"1984-06-15\"\n}"
+		},
+		{
+			"id": "bc203896-f434-34c0-b5f4-c01471c1ba6d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/employees/3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598614943498,
+			"name": "Delete",
+			"description": "",
+			"collectionId": "02497a18-d777-5538-b740-6abc2f848f36",
+			"responses": [],
+			"rawModeData": ""
+		}
+	]
+}
